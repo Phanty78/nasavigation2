@@ -1,4 +1,7 @@
+import Footer from '@/components/layout/Footer'
+import Header from '@/components/layout/Header'
 import '@/styles/globals.css'
+import { ThemeProvider } from '@/utils/theme-provider'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -12,8 +15,19 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="en" suppressHydrationWarning>
+      <body>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <Header />
+          <main>{children}</main>
+          <Footer />
+        </ThemeProvider>
+      </body>
     </html>
   )
 }
