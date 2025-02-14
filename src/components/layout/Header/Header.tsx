@@ -1,4 +1,4 @@
-import { ModeToggle } from '@/components/ui/mode-toggle'
+import { ModeToggle } from '@/components/layout/Header/mode-toggle'
 import Logo from './Logo'
 
 export default function Header() {

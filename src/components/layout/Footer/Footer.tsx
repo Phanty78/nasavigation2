@@ -1,10 +1,11 @@
+import DisplaySocialsLinks from '@/components/layout/Footer/DisplaySocialsLinks'
+import FooterTexts from '@/components/layout/Footer/FooterTexts'
+
 export default function Footer() {
   return (
-    <footer className="flex gap-4 justify-center items-center border-t border-white border-border py-4">
-      <p>
-        Made with ❤️ by <a href="https://github.com/Phanty78">Maël Donnart</a>
-      </p>
-      <p>{new Date().getFullYear()} All right reserved</p>
+    <footer className="flex justify-between items-center px-8 md:px-24 py-4 border-t border-white border-border">
+      <FooterTexts />
+      <DisplaySocialsLinks />
     </footer>
   )
 }
