@@ -18,7 +18,7 @@ Nasavigation est un projet éducatif ou d'entrainement pour vous perfectionner a
 
 V1 - App monopage composer d'une structure HTML sémantique complète permetant la découverte de diverses photo de la NASA en utilisant l'API APOD (https://github.com/nasa/apod-api).
 
-La page principal permetra de faire une recherche par date, par choix aléatoire ou par photo suivante / précédente.
+La page principal permetra de faire une recherche par date, par choix aléatoire ou par photo suivante / précédente. Lors du premier chargement, l'image du jours sera affichée par default.
 
 # ENGLISH
 
