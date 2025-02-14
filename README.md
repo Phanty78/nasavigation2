@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FRANCAIS
 
-## Getting Started
+## Démarage rapide
 
-First, run the development server:
+Pour installer l'application , cloner le repo GitHub (https://github.com/Phanty78/nasavigation2) puis ouvrez un terminal de commmande et tapper "npm i" afin d'installer les dépendance.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Une fois l'installation effectuer pour pouvez lancer le projet en local en tappant "next dev" dans votre terminale de commande.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Vous verez le résultat en ouvrant http://localhost:3000 dans votre navigateur.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Qu'est ce que NASAVIGATION ?
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Nasavigation est un projet éducatif ou d'entrainement pour vous perfectionner avec Next.js , TypeScript, ShadCN & TailwindCSS.
 
-## Learn More
+## Objectif de l'application
 
-To learn more about Next.js, take a look at the following resources:
+V1 - App monopage composer d'une structure HTML sémantique complète permetant la découverte de diverses photo de la NASA en utilisant l'API APOD (https://github.com/nasa/apod-api).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+La page principal permetra de faire une recherche par date, par choix aléatoire ou par photo suivante / précédente.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# ENGLISH
 
-## Deploy on Vercel
+## Quick start
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To install the application, clone the GitHub repo (https://github.com/Phanty78/nasavigation2) then open a command terminal and type “npm i” to install the dependencies.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Once installed, you can launch the project locally by typing “next dev” in your command terminal.
+
+You can see the result by opening http://localhost:3000 in your browser.
+
+## What is NASAVIGATION?
+
+Nasavigation is an educational or training project for perfecting your skills in Next.js , TypeScript, ShadCN & TailwindCSS.
+
+## Application objective
+
+V1 - Single-page app composed of a complete semantic HTML structure allowing the discovery of various NASA photos using the APOD API (https://github.com/nasa/apod-api).
+
+The main page will allow search by date, random selection or next/previous photo.
